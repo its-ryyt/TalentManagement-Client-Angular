@@ -38,7 +38,6 @@ export const environment = {
   externalApiUrl: envConfig.externalApiUrl,
   apiEndpoint: subEnvironmentSetting[0].apiEndpoint, //demo API project in azure
   apiMockEndpoint: subEnvironmentSetting[0].apiMockEndpoint,
-
   // settings for connection to Duende IdentityServer
   auth: {
     issuer: subEnvironmentSetting[0].issuer, // demo IdentityServer in Azure
